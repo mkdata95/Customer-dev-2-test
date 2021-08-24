@@ -21,7 +21,7 @@ const styles = (theme) => ({
     minWidth: 1080,
   },
   progress: {
-    margin: theme.spacing.unit * 2,
+    margin: theme.spacing(2),
   },
 });
 
@@ -81,7 +81,7 @@ class App extends Component {
               })
             ) : (
               <TableRow>
-                <TableCell colspan="6" align="center">
+                <TableCell colSpan="6" align="center">
                   <CircularProgress
                     className={classes.progress}
                     variant="indeterminate"

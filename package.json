@@ -5,12 +5,13 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "concurrently": "^6.2.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
   },
   "scripts": {
     "client": "cd client && yarn start",
-        "server": "nodemon server.js",
-        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "eslintConfig": {
     "extends": [
