@@ -9,9 +9,8 @@
   },
   "scripts": {
     "client": "cd client && yarn start",
-    "server": "nodemon server.js",
-    "dev": "concurrently --kil-othes-on-fail \"yarn server\" \"yarn client\" ",
-    "eject": "react-scripts eject"
+        "server": "nodemon server.js",
+        "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
   "eslintConfig": {
     "extends": [
